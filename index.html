@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>whatabug.com</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- check intro.js if needed -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/mousetrap.js"></script> -->
+
+</head>
+
+<body>
+
+<p>booting ...</p>
+<p>verifying checksum ... OK</p>
+<p>loading image ... OK</p>
+<p class="glitch" data-text="decoding 74 79 70 65 20 22 66 69 78 6d 65 22 20 6f 6e 20 77 68 61 74 61 62 75 67 2e 63 6f 6d 20 66 6f 72 20 66 75 72 74 68 65 72 20 69 6e 73 74 72 75 63 74 69 6f 6e 73">decoding 74 79 70 65 20 22 66 69 78 6d 65 22 20 6f 6e 20 77 68 61 74 61 62 75 67 2e 63 6f 6d 20 66 6f 72 20 66 75 72 74 68 65 72 20 69 6e 73 74 72 75 63 74 69 6f 6e 73 <span>&#x2588;</span></p>
+
+<p></p>
+
+<p class="glitch" data-text="201 [ 675.362959] Kernel panic - not syncing: Watchdog detected hard LOCKUP on cpu 8">201 [ 675.362959] Kernel panic - not syncing: Watchdog detected hard LOCKUP on cpu 8</p>
+<p class="glitch" data-text="202 [ 675.363355] Pid: 3457, comm: lve_tag_thread veid: 0 Not tainted 2.6.32-673.8.1.lve1.4.3.el6.x86_64 #1">202 [ 675.363355] Pid: 3457, comm: lve_tag_thread veid: 0 Not tainted 2.6.32-673.8.1.lve1.4.3.el6.x86_64 #1</p>
+<p class="glitch" data-text="203 [ 675.363748] Call Trace:">203 [ 675.363748] Call Trace:</p>
+<p class="glitch" data-text="204 [ 675.363972] <NMI> [<ffffffff81546288>] ? panic+0xa7/0x16f">204 [ 675.363972] <NMI> [<ffffffff81546288>] ? panic+0xa7/0x16f</p>
+<p class="glitch" data-text="205 [ 675.364284] [<ffffffff81015039[> ? sched_clock+0x9/0x10">205 [ 675.364284] [<ffffffff81015039[> ? sched_clock+0x9/0x10</p>
+<p class="glitch" data-text="206 [ 675.364520] [<ffffffff81105fdd[> ? watchdog_overflow_callback+0xcd/0xd0">206 [ 675.364520] [<ffffffff81105fdd[> ? watchdog_overflow_callback+0xcd/0xd0</p>
+<p class="glitch" data-text="207 [ 675.364757] [<ffffffff8113ed17[> ? __perf_event_overflow+0xa7/0x240">207 [ 675.364757] [<ffffffff8113ed17[> ? __perf_event_overflow+0xa7/0x240</p>
+<p class="glitch" data-text="208 [ 675.364993] [<ffffffff8101ee24[> ? x86_perf_event_set_period+0xf4/0x180">208 [ 675.364993] [<ffffffff8101ee24[> ? x86_perf_event_set_period+0xf4/0x180</p>
+<p class="glitch" data-text="209 [ 675.365230] [<ffffffff8113f364[> ? perf_event_overflow+0x14/0x20">209 [ 675.365230] [<ffffffff8113f364[> ? perf_event_overflow+0x14/0x20</p>
+<p class="glitch" data-text="210 [ 675.365464] [<ffffffff81025bd2[> ? intel_pmu_handle_irq+0x202/0x3f0">210 [ 675.365464] [<ffffffff81025bd2[> ? intel_pmu_handle_irq+0x202/0x3f0</p>
+<p class="glitch" data-text="211 [ 675.365703] [<ffffffff8154bd49[> ? perf_event_nmi_handler+0x39/0xb0">211 [ 675.365703] [<ffffffff8154bd49[> ? perf_event_nmi_handler+0x39/0xb0</p>
+<p class="glitch" data-text="212 [ 675.365937] [<ffffffff8154d805[> ? notifier_call_chain+0x55/0x80">212 [ 675.365937] [<ffffffff8154d805[> ? notifier_call_chain+0x55/0x80</p>
+<p class="glitch" data-text="213 [ 675.366171] [<ffffffff8154d86a[> ? atomic_notifier_call_chain+0x1a/0x20">213 [ 675.366171] [<ffffffff8154d86a[> ? atomic_notifier_call_chain+0x1a/0x20</p>
+<p class="glitch" data-text="214 [ 675.366408] [<ffffffff810b239e[> ? notify_die+0x2e/0x30">214 [ 675.366408] [<ffffffff810b239e[> ? notify_die+0x2e/0x30</p>
+<p class="glitch" data-text="215 [ 675.366640] [<ffffffff8154b30b[> ? do_nmi+0x1cb/0x370">215 [ 675.366640] [<ffffffff8154b30b[> ? do_nmi+0x1cb/0x370</p>
+</body>
+
+<script src="intro.js"></script>
+
+</html>
