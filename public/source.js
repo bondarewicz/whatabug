@@ -28,6 +28,4 @@ function reset(e) {
     }
 }
 
-// document.onkeydown = KeyPress;
 document.addEventListener("keydown", KeyPress);
-// document.addEventListener("keyup", reset);
