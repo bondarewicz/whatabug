@@ -15,7 +15,7 @@ function KeyPress(e) {
       
       // hint
       if(map[72] && map[73] && map[78] && map[84]) {
-        document.body.innerHTML = '<p><a href="https://github.com/bondarewicz/whatabug/issues/1">click me<a> <span>&#x2588;</span></p>';
+        document.body.innerHTML = '<p><a href="https://goo.gl/gAVnEr">click me<a> <span>&#x2588;</span></p>';
         console.clear();
       }
   }
