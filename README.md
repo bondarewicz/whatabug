@@ -1,1 +1,1 @@
-# whatabug
+# previously whatabug.com
